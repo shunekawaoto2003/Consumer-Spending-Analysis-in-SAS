@@ -58,3 +58,25 @@ Variables: `CustomerID`, `Gender`, `Age`, `Annual Income`, `Spending Score`.
 
 ## 📁 Repository Contents
 
+
+---
+
+## 📈 Results Summary
+
+- **F(3,196) = 17.23, p < 0.001:** Significant differences in spending by age group  
+- **No significant gender effect (p = 0.41):** Gender does not influence spending patterns  
+- **Non-parametric confirmation:** Kruskal–Wallis test validated age-group differences under assumption violations  
+
+---
+
+## 🧾 Citation
+
+Dataset: [Kaggle – Customer Segmentation Tutorial in Python](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
+
+---
+
+## 👤 Author
+
+**Shune Kawaoto**  
+M.S. Applied Statistics, California State University, Long Beach  
+📧 kawaotoshune@gmail.com | [LinkedIn](https://www.linkedin.com/in/shunekawaoto) | [GitHub](https://github.com/shunekawaoto2003)
