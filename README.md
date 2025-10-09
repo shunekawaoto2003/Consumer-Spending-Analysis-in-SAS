@@ -5,7 +5,7 @@ The analysis demonstrates proficiency in **statistical validation, model assumpt
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 **Goal:**  
 Determine whether spending behavior differs significantly by **gender** and **age group**, using appropriate statistical testing methods based on data assumptions.
@@ -16,7 +16,7 @@ Variables: `CustomerID`, `Gender`, `Age`, `Annual Income`, `Spending Score`.
 
 ---
 
-## 🧩 Methodology
+## Methodology
 
 1. **Data Import and Preprocessing**
    - Imported `.csv` dataset into SAS using `PROC IMPORT`
@@ -35,7 +35,7 @@ Variables: `CustomerID`, `Gender`, `Age`, `Annual Income`, `Spending Score`.
 
 ---
 
-## 🧠 Key Findings
+## Key Findings
 
 | Hypothesis | Test Used | Result | Significance |
 |-------------|------------|---------|---------------|
@@ -47,7 +47,7 @@ Variables: `CustomerID`, `Gender`, `Age`, `Annual Income`, `Spending Score`.
 
 ---
 
-## ⚙️ Technologies and Skills
+## Technologies and Skills
 
 - **SAS Procedures:** `PROC GLM`, `PROC UNIVARIATE`, `PROC NPAR1WAY`, `PROC SGPLOT`
 - **Statistical Methods:** ANOVA, Tukey HSD, Kruskal–Wallis, Wilcoxon Rank-Sum
@@ -56,12 +56,7 @@ Variables: `CustomerID`, `Gender`, `Age`, `Annual Income`, `Spending Score`.
 
 ---
 
-## 📁 Repository Contents
-
-
----
-
-## 📈 Results Summary
+## Results Summary
 
 - **F(3,196) = 17.23, p < 0.001:** Significant differences in spending by age group  
 - **No significant gender effect (p = 0.41):** Gender does not influence spending patterns  
@@ -69,13 +64,13 @@ Variables: `CustomerID`, `Gender`, `Age`, `Annual Income`, `Spending Score`.
 
 ---
 
-## 🧾 Citation
+## Citation
 
 Dataset: [Kaggle – Customer Segmentation Tutorial in Python](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
 
 ---
 
-## 👤 Author
+## Author
 
 **Shune Kawaoto**  
 M.S. Applied Statistics, California State University, Long Beach  
