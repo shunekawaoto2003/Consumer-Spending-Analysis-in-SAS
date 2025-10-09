@@ -1,0 +1,39 @@
+---
+title: "project eda"
+format: pdf
+editor: visual
+---
+
+```{r}
+setwd("~/CSULB/2025 Spring/STAT 560/Project")
+mall <- read.csv('Mall_Customers.csv')
+
+library(dplyr)
+library(ggplot2)
+library(skimr)
+library(scatterplot3d)
+
+skim(mall)
+```
+
+```{r}
+male_mall <- mall %>% filter(Gender == 'Male')
+female_mall <- mall %>% filter(Gender == 'Female')
+
+scatterplot3d(female_mall$Age, female_mall$Annual_Income, female_mall$Spending_Score,
+              main = "3D Scatter Plot - Female",
+              xlab = "Age",
+              ylab = "Annual Income",
+              zlab = "Spending Score",
+              color = "red",
+              pch = 16)
+
+
+scatterplot3d(male_mall$Age, male_mall$Annual_Income, male_mall$Spending_Score,
+              main = "3D Scatter Plot - Male",
+              xlab = "Age",
+              ylab = "Annual Income",
+              zlab = "Spending Score",
+              color = "blue",
+              pch = 16)
+```
