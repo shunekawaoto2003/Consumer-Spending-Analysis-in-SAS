@@ -1,7 +1,7 @@
 # Parametric vs. Non-Parametric Analysis of Consumer Spending
 
 This project explores **consumer spending behavior across demographics** using both **parametric (ANOVA, Tukey HSD)** and **non-parametric (Wilcoxon, Kruskal-Wallis)** statistical tests in **SAS**.  
-The analysis demonstrates proficiency in **statistical validation, model assumption testing, and reproducible reporting**—core practices in applied statistics and assessment analytics.
+The analysis demonstrates proficiency in **statistical validation, model assumption testing, and reproducible reporting**..
 
 ---
 
